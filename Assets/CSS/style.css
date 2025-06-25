@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    background: #fff8f0;
+    /* padding-inline: 5rem; */
+
+
+    .navbar{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* margin-top: 15px; */
+        padding: 15px 15px;
+        padding-inline: 2rem;
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            li {
+                list-style: none;
+
+                a{
+                    text-decoration: none;
+                    color: #f8ddc0;
+                    font-size: 16px;
+                    font-weight: 510;
+                }
+            }
+        }
+
+        .divlogo{
+            width: 100px;
+            height: 50px;
+            background-image: url(../Images/logo.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .booknow-tag{
+            border-radius: 15px;
+            background-color: #b48656;
+            a{
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 500;
+            width: 150px;
+            background: #b48656;
+            border-radius: 15px;
+            padding-inline: 8px;
+            color: #f7e0cf;
+            padding: 10px;
+            }
+        
+    }
+    }
+
+    .herop{
+        padding:15px;
+    }
+
+
+    .hero-pic{
+        max-width:1400px;
+        height: 500px;
+        background-image: url(../Images/young-man-doing-pedicure-salon-beauty-concept.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.7;
+
+        padding: 100px;
+
+        h1{
+            font-size: 22px;
+            color: #fafaed;
+            font-weight: 300px;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        p{
+            color: #faefef;
+            font-size: 18px;
+            font-weight: 300px;
+            width: 750px;
+            padding-block: 1rem
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            width: 150px;
+            background: #b48656;
+            border-radius: 15px;
+            padding-inline: 8px;
+            color: #f7e0cf;
+            padding: 10px;
+        }
+    }
+
+    .sub-content{
+        max-width: 100%;
+        height: 400px;
+        /* border: 2px solid red ; */
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+
+
+    .sub-cont{
+        width: 600px;
+        height: 396px ;
+        padding: 85px;
+
+        h3{
+            width: 500px;
+            font-size: 18px;
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: "Edu VIC WA NT Hand", cursive;
+            font-weight: 400;
+            font-style: normal;
+            margin-block: 0.5rem;
+        }
+    }
+
+    .sub-cont2{
+        width: 650px;
+        height: 396px ;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+
+        .box-cont{ 
+            width: 300px;
+            height: 395px;
+            background-image: url(../Images/nail-art-professional-working-client-nails.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .box-cont2{
+            width: 400px;
+            height: 250px;
+            background-image: url(../Images/nail-art-professional-working-client-nails\ \(2\).jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    hr{
+      margin-top: 0.5rem;
+    }
+}
+
+.service-content{
+    padding: 50px 0px;
+    background: #faefed;
+    h1{
+        color: rgb(206, 127, 134);
+        font-family: "Edu NSW ACT Cursive", cursive;
+        font-size: 16px;
+        margin-block: 0.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-family: "Cormorant", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 32px;
+        text-align: center;
+        margin-block: 0.6rem;
+    }
+
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .service-container::-webkit-scrollbar {
+        display: none;
+      }
+
+      .service-container{
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        scroll-snap-align: start;
+      }
+
+    .service-container{
+        display: flex;
+        margin-block: 0.5rem;
+        gap: 50px;
+        width:1100px;
+        margin-inline: auto;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+       .image-box1{
+        width: 360px;
+        height: 410px;
+        /* border: 2px solid red; */
+        background-image: url(../Images/manicure.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+       }
+
+       .image-box2{
+        width: 360px;
+        height: 410px;
+        /* border: 2px solid red; */
+        background-image: url(../Images/nail\ art.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+       }
+
+       .image-box3{
+        width: 360px;
+        height: 410px;
+        /* border: 2px solid red; */
+        background-image: url(../Images/pedicure-foot.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+       }
+    }
+}
+.about{
+   width: 100%;
+   height: 550px;
+   display: flex;
+    .image{
+        width: 50%;
+        height: 596px;
+        background-image: url(../Images/manicureg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        /* border-radius: 10px; */
+    }
+
+    .Text{
+        width: 50%;
+        height: 596px;
+        background: #efcec9;
+        padding: 80px 80px;
+        h1{
+            color: rgb(206, 127, 134);
+            font-family: "Satisfy", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+        }
+
+        h2{
+        font-family: "Cormorant", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 35px;
+        margin-block: 0.9rem;
+        }
+
+        p{
+            font-size: 18px;
+            margin-block: 0.6rem;
+            font-weight: 520;
+        }
+
+        .paragrap{
+            margin-block: 1rem;
+            color: rgb(102, 96, 112);
+            line-height: 26px;
+        }
+
+        .call-icon{
+            width: 60px;
+            height: 60px;
+            border-radius: 40px;
+            text-align: center;
+            background: rgba(250, 239, 237, 0.46);
+            padding: 13px 13px;
+        }
+
+        .icon{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 3rem;
+        }
+
+        .call{
+            .ptag{
+                color: rgb(206, 127, 134);
+                font-size: 18px;
+                font-weight: 500px;
+            }
+
+            p{
+                color: #911439;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            padding: 20px;
+            background: #911439;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        a:hover{
+            background: #2b2b45;
+        }
+    }
+}
+
+.pedi-tools{
+    padding: 50px 70px;
+    background: #faefed;
+    display: flex;
+    justify-content: space-between;
+
+    .serli-tool img{
+        width: 50px;
+    }
+
+    .serli-tool{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .st-text{
+        .pag{
+        font-family: "Cormorant", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        margin-top: 2.3rem
+        }
+        p{
+            margin-bottom: 0.4rem;
+            width: 187px;
+        }
+        a{
+            color: #911439;
+            font-size: 18px;
+            font-weight: 530;
+        }
+    }
+}
