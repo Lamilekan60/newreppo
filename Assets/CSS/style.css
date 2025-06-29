@@ -21,6 +21,7 @@ main{
         /* margin-top: 15px; */
         padding: 15px 15px;
         padding-inline: 2rem;
+        /* z-index: 100; */
         .nav ul{
             display: flex;
             flex-direction: row;
@@ -31,9 +32,10 @@ main{
 
                 a{
                     text-decoration: none;
-                    color: #f8ddc0;
-                    font-size: 16px;
+                    /* color: #f8ddc0; */
+                    font-size: 18px;
                     font-weight: 510;
+                    color: black;
                 }
             }
         }
@@ -52,14 +54,13 @@ main{
             background-color: #b48656;
             a{
             text-decoration: none;
-            font-size: 12px;
+            font-size: 16px;
             font-weight: 500;
-            width: 150px;
+            width: 170px;
             background: #b48656;
             border-radius: 15px;
-            padding-inline: 8px;
-            color: #f7e0cf;
-            padding: 10px;
+            color: white;
+            padding: 18px;
             }
         
     }
@@ -73,16 +74,20 @@ main{
     .hero-pic{
         max-width:1400px;
         height: 500px;
-        background-image: url(../Images/young-man-doing-pedicure-salon-beauty-concept.jpg);
+        background: linear-gradient( rgba(0, 0, 0,0.9),rgba(0, 0, 0,0.9)),url(../Images/woman-getting-manicure-high-angle.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         opacity: 0.7;
+       align-items: center;
+       /* background-color: rgb(26, 25, 25); */
+        display: flex;
+        flex-direction: column;
 
         padding: 100px;
 
         h1{
-            font-size: 22px;
+            font-size: 150px;
             color: #fafaed;
             font-weight: 300px;
             font-family: "Lato", sans-serif;
@@ -95,19 +100,17 @@ main{
             font-size: 18px;
             font-weight: 300px;
             width: 750px;
-            padding-block: 1rem
+            padding-block: 1rem;
+            text-align: center;
         }
 
         a{
             text-decoration: none;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 500;
-            width: 150px;
             background: #b48656;
-            border-radius: 15px;
-            padding-inline: 8px;
-            color: #f7e0cf;
-            padding: 10px;
+            color: white;
+            padding: 18px;
         }
     }
 
@@ -229,6 +232,24 @@ main{
         background-size: cover;
         background-position: center;
         border-radius: 10px;
+        position: relative;
+        padding-inline: 0.37rem; 
+
+        .paa{
+            font-size: 18px;
+            font-weight: 500;
+            width: 350px;
+            color: black;
+            background-color: white;
+            position: absolute;
+            bottom: 8px;
+            display: none;
+        }
+
+        .paa:hover{
+            display: block;
+            cursor: pointer;
+        }
        }
 
        .image-box2{
@@ -245,12 +266,17 @@ main{
        .image-box3{
         width: 360px;
         height: 410px;
-        /* border: 2px solid red; */
         background-image: url(../Images/pedicure-foot.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         border-radius: 10px;
+       }
+
+       .manicuree p {
+        font-size: 23px;
+        font-weight: 400;
+        font-family: sans-serif;
        }
     }
 }
@@ -263,9 +289,7 @@ main{
         height: 596px;
         background-image: url(../Images/manicureg.webp);
         background-repeat: no-repeat;
-        background-size: cover;
-        /* background-position: center; */
-        /* border-radius: 10px; */
+        background-size: cover; 
     }
 
     .Text{
@@ -380,4 +404,180 @@ main{
             font-weight: 530;
         }
     }
+}
+
+.box-content{
+    width: 100%;
+   height: 400px;
+   background: #efcec9;
+   padding: 20px 40px;
+   display: flex;
+   gap: 10px;
+   /* flex-direction: row; */
+   gap: 20px;
+   .pic-box{
+    width: 700px;
+    height: 380px;
+    background-image: url(../Images/banner1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 80px;
+    
+    h1{
+        color: rgb(206, 127, 134);
+        font-size: 20px;
+        font-family: "Parisienne", cursive;
+        font-weight: 400;
+        font-style: normal;
+        margin-block: 0.4rem;
+    }
+
+    h2{
+        font-family: "Bodoni Moda", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 32px;
+        width: 250px;
+    }
+
+    p{
+        font-size: 14px;
+        font-weight: 550;
+        margin-block: 0.6rem;
+    }
+   }
+
+   .pic-box1{
+    width: 500px;
+    height: 320px;
+    background-image: url(../Images/6188.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    padding: 100px 0;
+
+    p{
+        color: rgb(206, 127, 134);
+        font-family: "Bodoni Moda", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 42px;
+        text-align: center;
+    }
+
+    span{ 
+        color: black;
+        font-size: 20px;
+        font-size: 42px;
+    }
+
+    .pan{
+        font-size: 18px;
+        font-weight: 550;
+        color: rgb(102, 96, 112);
+        margin-block: 0.6rem;
+    }
+}
+}
+
+.booknow-btn{
+/* padding: 100px; */
+   background-image: url(../Images/woman-getting-manicure-high-angle.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   opacity: 0.7;
+   align-items: center;
+
+   h1{
+    font-family: Kugile, Kugile Fallback;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+   }
+
+   .pann{
+    text-align: center;
+    padding: 0px 470px;
+    margin-block: 0.5rem;
+   }
+
+   p{
+    color: #fff;
+    width: 420px;
+    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+   }
+
+   .chat{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 3.40282e+38px;
+    background: white;
+    padding-block: calc(var(--spacing) * 4);
+    /* padding-inline: calc(var(--spacing) * 7); */
+
+   }
+
+   .chat img{
+    width: 50px;
+    height: 50px;
+   }
+
+   .chat p{
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+   }
+}
+
+.foother{
+    padding: 50px;
+    background: #fce6e3;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    h1{
+        color:  rgb(206, 127, 134);
+        font-family: Kugile, Kugile Fallback;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    p{
+        font-family: Kugile, Kugile Fallback;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        margin-block: 0.4rem;
+    }
+
+    .footer1{
+
+        .flat-icon{
+            display: flex;
+            gap: 40px;
+        }
+        .mails{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-direction: row;
+            margin-block: 0.7rem;
+        }
+    }
+}
+
+.foother2{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    
 }

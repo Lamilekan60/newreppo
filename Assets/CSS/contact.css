@@ -1,0 +1,248 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: 15px; */
+    padding: 15px 15px;
+    padding-inline: 2rem;
+    background: #fff8f0;
+    position: sticky;
+    top: 2;
+    z-index: 100;
+    .nav ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        li {
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                /* color: #f8ddc0; */
+                font-size: 18px;
+                font-weight: 500;
+                font-weight: 400;
+                color: black;
+            }
+        }
+    }
+
+    .divlogo{
+        width: 100px;
+        height: 50px;
+        background-image: url(../Images/logo.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .booknow-tag{
+        border-radius: 15px;
+        background-color: #b48656;
+        a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        width: 150px;
+        background: #b48656;
+        border-radius: 15px;
+        padding-inline: 8px;
+        color:white;
+        padding: 10px;
+        }
+    }
+}        
+
+.header{
+    h1{
+        color:black;
+        font-size: 38px;
+        background: #f5f3f3;
+        padding: 60px;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    h2{
+        font-size: 35px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        margin-block:2rem;
+    }
+}
+
+.email{
+    max-width: 1200px;
+    height: 600px;
+    margin-inline: auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    .box-email{
+        width: 500px;
+        height: 598px;
+        /* border: 2px soid black; */
+        border-radius: 12px;
+        background: linear-gradient( rgba(0, 0, 0,.7),rgba(0, 0, 0,.7)),url(../Images/women-hand.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px;
+        position: relative;
+
+        .par{
+            margin-top: 1.5rem;
+        }
+        
+        h3{
+            color: white;
+            font-size: 26px;
+            font-family: "Old Standard TT", serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-block: 1rem;
+        }
+
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            color: white;
+            margin-top: 1rem;
+        }
+
+        .contact-icon{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-block: 0.7rem;
+            p{
+                font-size: 18px;
+                font-family: "Edu VIC WA NT Hand", cursive;
+                font-weight: 400;
+            }
+        }
+
+        .box-icon{
+            position: absolute;
+            bottom: 8px;
+        }
+    }
+
+    .maill-box{
+        padding: 30px;
+        .gmail{
+            .box-gmaill{
+              p{
+                font-size: 24px;
+                font-weight: 500;
+                margin-block: 0.7rem;
+              }
+            }
+
+            input{
+                padding: 10px;
+                width: 650px;
+                /* border: 2px solid transparent; */
+            }
+        }
+
+        button{
+            padding: 13px;
+            color: White;
+            background:#b48656;
+            border: none;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+    }
+
+    .box-email1 texta{
+        width: 600px;
+    }
+
+    .box-email1{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+       
+
+        .contact-form{
+            p{
+                font-size: 24px;
+                font-weight: 500;
+                margin-block: 0.7rem;
+            }
+
+            input{
+                padding: 10px;
+                width: 300px;
+                /* border: 2px solid transparent; */
+            }
+
+        }
+    }
+}
+
+.foother{
+    padding: 50px;
+    background: #fce6e3;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    h1{
+        color:  rgb(206, 127, 134);
+        font-family: Kugile, Kugile Fallback;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    p{
+        font-family: Kugile, Kugile Fallback;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        margin-block: 0.4rem;
+    }
+
+    .footer1{
+
+        .flat-icon{
+            display: flex;
+            gap: 40px;
+        }
+        .mails{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-direction: row;
+            margin-block: 0.7rem;
+        }
+    }
+}
+
+.foother2{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    
+}

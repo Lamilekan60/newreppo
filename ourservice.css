@@ -1,0 +1,222 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+.navbar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: 15px; */
+    padding: 15px 15px;
+    padding-inline: 2rem;
+    background: #fff8f0;
+    position: sticky;
+    top: 2;
+    z-index: 100;
+    .nav ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        li {
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                /* color: #f8ddc0; */
+                font-size: 18px;
+                font-weight: 500;
+                font-weight: 400;
+                color: black;
+            }
+        }
+    }
+
+    .divlogo{
+        width: 100px;
+        height: 50px;
+        background-image: url(./Assets/Images/logo.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .booknow-tag{
+        border-radius: 15px;
+        background-color: #b48656;
+        a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        width: 150px;
+        background: #b48656;
+        border-radius: 15px;
+        padding-inline: 8px;
+        color:white;
+        padding: 10px;
+        }
+    
+}
+}
+h1{
+    color:black;
+    font-size: 38px;
+    background: #f5f3f3;
+    padding: 60px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+}
+
+.heading{
+    font-size: 32px;
+    text-align: center;
+    margin-block: 0.8rem;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(206, 127, 134);
+}
+
+.classic-content{
+    max-width: 100%;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+}
+
+.classic-box1{
+    width: 50%;
+    height: 550px;
+    padding: 50px 35px;
+    /* border: 1px solid rgb(253, 249, 249); */
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    ul li{
+        font-size: 17px;
+        font-weight: 500;
+        margin-block: 0.9rem;
+    }
+}
+
+.classic-box2{
+    width: 50%;
+    height: 550px;
+    img{
+        width: 100%;
+        height: 563px;
+    }
+}
+
+.classic-box3{
+    width: 50%;
+    height: 550px;
+    img{
+        width: 100%;
+        height: 560px;
+    }
+}
+
+.classic-box4{
+    width: 50%;
+    height: 560px;
+    padding: 50px 35px;
+    /* border: 1px solid rgb(253, 249, 249); */
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    ul li{
+        font-size: 17px;
+        font-weight: 500;
+        margin-block: 0.9rem;
+    }
+}
+
+.classic-box5{
+    width: 50%;
+    height: 550px;
+    img{
+        width: 100%;
+        height: 560px;
+    }
+}
+
+.classic-box6{
+    width: 50%;
+    height: 560px;
+    padding: 50px 35px;
+    /* border: 1px solid rgb(253, 249, 249); */
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    ul li{
+        font-size: 17px;
+        font-weight: 500;
+        margin-block: 0.9rem;
+    }
+}
+
+.foother{
+    padding: 50px;
+    background: #fce6e3;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    h1{
+        color:  rgb(206, 127, 134);
+        font-family: Kugile, Kugile Fallback;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    p{
+        font-family: Kugile, Kugile Fallback;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        margin-block: 0.4rem;
+    }
+
+    .footer1{
+
+        .flat-icon{
+            display: flex;
+            gap: 40px;
+        }
+        .mails{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-direction: row;
+            margin-block: 0.7rem;
+        }
+    }
+}
+
+.foother2{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    
+}
