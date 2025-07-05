@@ -37,13 +37,16 @@ body{
     }
 
     .divlogo{
-        width: 100px;
-        height: 50px;
-        background-image: url(./Assets/Images/logo.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+        img{
+          width: 100px;
+          height: 80px;
+        }
+          /* background-image: url(./Assets/Images/logo.webp);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; */
+      }
+  
 
     .booknow-tag{
         border-radius: 15px;

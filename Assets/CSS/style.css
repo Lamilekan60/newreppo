@@ -6,11 +6,10 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    background: #fff8f0;
 }
 
-main{
-    background: #fff8f0;
-    /* padding-inline: 5rem; */
+
 
 
     .navbar{
@@ -18,35 +17,41 @@ main{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        /* margin-top: 15px; */
-        padding: 15px 15px;
+        padding: 10px 15px;
         padding-inline: 2rem;
-        /* z-index: 100; */
-        .nav ul{
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-
-            li {
-                list-style: none;
-
-                a{
-                    text-decoration: none;
-                    /* color: #f8ddc0; */
-                    font-size: 18px;
-                    font-weight: 510;
-                    color: black;
-                }
-            }
+        @media (max-width:445px){
+            padding: 7px;
         }
+    
+   }
+
+        .navlinks {
+        .li-links{
+           display: flex;
+           gap: 20px;
+           list-style: none;
+           a{
+            text-decoration: none;
+            color:black;
+            font-size: 18px;
+            font-family: 400;
+           }
+        }
+    }
 
         .divlogo{
             width: 100px;
-            height: 50px;
+            height: 100px;
             background-image: url(../Images/logo.webp);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            border-radius: 50px;
+            @media (max-width: 445px){
+                width: 70px;
+                height: 70px;
+                border-radius: 40px;
+            }
         }
 
         .booknow-tag{
@@ -64,16 +69,13 @@ main{
             }
         
     }
-    }
+    
 
-    .herop{
-        padding:15px;
-    }
-
+   
 
     .hero-pic{
         max-width:1400px;
-        height: 500px;
+        /* height: 500px; */
         background: linear-gradient( rgba(0, 0, 0,0.9),rgba(0, 0, 0,0.9)),url(../Images/woman-getting-manicure-high-angle.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -85,6 +87,10 @@ main{
         flex-direction: column;
 
         padding: 100px;
+        @media (max-width: 445px){
+            max-width: 100%;
+            padding: 20px;
+        }
 
         h1{
             font-size: 150px;
@@ -93,6 +99,10 @@ main{
             font-family: "Lato", sans-serif;
             font-weight: 400;
             font-style: italic;
+
+            @media (max-width: 445px){
+                font-size: 59px;
+            }
         }
 
         p{
@@ -102,6 +112,9 @@ main{
             width: 750px;
             padding-block: 1rem;
             text-align: center;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
         }
 
         a{
@@ -116,25 +129,37 @@ main{
 
     .sub-content{
         max-width: 100%;
-        height: 400px;
         /* border: 2px solid red ; */
         display: flex;
         flex-direction: row;
         justify-content:space-evenly;
+
+        @media (max-width: 445px){
+            display: flex;
+            flex-direction: column;
+        }
     }
 
 
     .sub-cont{
         width: 600px;
-        height: 396px ;
         padding: 85px;
+
+        @media (max-width: 445px){
+            max-width: 100%;
+            padding: 10px;
+        }
 
         h3{
             width: 500px;
-            font-size: 18px;
-            font-family: "Lato", sans-serif;
-            font-weight: 300;
+            font-size: 22px;
+            font-family: "Old Standard TT", serif;
+            font-weight: 400;
             font-style: normal;
+
+            @media (max-width: 445px){
+                max-width:100%;
+            }
         }
 
         p{
@@ -148,34 +173,49 @@ main{
 
     .sub-cont2{
         width: 650px;
-        height: 396px ;
         display: flex;
         align-items: center;
         gap: 15px;
+
+        @media (max-width: 445px){
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-inline: 0.5rem;
+        }
+        
         
 
         .box-cont{ 
             width: 300px;
             height: 395px;
-            background-image: url(../Images/nail-art-professional-working-client-nails.jpg);
+            background-image: url(../Images/DSC00963.webp);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            @media (max-width: 445px){
+                width: 100%;
+                height: 200px;
+            }
         }
 
         .box-cont2{
             width: 400px;
             height: 250px;
-            background-image: url(../Images/nail-art-professional-working-client-nails\ \(2\).jpg);
+            background-image: url(../Images/WhatsApp-Image-2022-11-03-at-4.11.30-PM-1.webp);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            @media (max-width: 445px){
+                width: 100%;
+                height: 200px;
+            }
         }
     }
     hr{
       margin-top: 0.5rem;
     }
-}
+
 
 .service-content{
     padding: 50px 0px;
@@ -204,36 +244,34 @@ main{
         text-align: center;
     }
 
-    .service-container::-webkit-scrollbar {
-        display: none;
-      }
-
-      .service-container{
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-        scroll-snap-align: start;
-      }
-
     .service-container{
         display: flex;
         margin-block: 0.5rem;
         gap: 50px;
         width:1100px;
         margin-inline: auto;
-        overflow: scroll;
-        scroll-behavior: smooth;
-        scroll-snap-type: x mandatory;
+        @media (max-width: 445px){
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            align-items: center;
+        }
        .image-box1{
         width: 360px;
         height: 410px;
         /* border: 2px solid red; */
-        background-image: url(../Images/manicure.webp);
+        background-image: url(../Images/IMG_9760spa.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         border-radius: 10px;
         position: relative;
         padding-inline: 0.37rem; 
+
+        @media (max-width: 445px){
+            max-width: 100%;
+            height: 300px;
+        }
 
         .paa{
             font-size: 18px;
@@ -261,6 +299,11 @@ main{
         background-size: cover;
         background-position: center;
         border-radius: 10px;
+
+        @media (max-width: 445px){
+            max-width: 100%;
+            height: 300px;
+        }
        }
 
        .image-box3{
@@ -271,32 +314,53 @@ main{
         background-size: cover;
         background-position: center;
         border-radius: 10px;
+
+        @media (max-width: 445px){
+            max-width: 100%;
+            height: 300px;
+        }
+
+        .manicuree p {
+            font-size: 23px;
+            font-weight: 400;
+            font-family: sans-serif;
+           }
+        
        }
 
-       .manicuree p {
-        font-size: 23px;
-        font-weight: 400;
-        font-family: sans-serif;
-       }
     }
 }
 .about{
    width: 100%;
-   height: 550px;
+   /* height: 550px; */
    display: flex;
+   @media (max-width: 445px){
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
     .image{
         width: 50%;
         height: 596px;
         background-image: url(../Images/manicureg.webp);
         background-repeat: no-repeat;
         background-size: cover; 
+
+        @media (max-width: 445px){
+            width: 100%;
+            height: 350px;
+        }
     }
 
     .Text{
-        width: 50%;
-        height: 596px;
+        max-width: 50%;
+        /* height: 596px; */
         background: #efcec9;
         padding: 80px 80px;
+        @media (max-width: 445px){
+            max-width: 100%;
+            padding: 20px;
+        }
         h1{
             color: rgb(206, 127, 134);
             font-family: "Satisfy", cursive;
@@ -374,6 +438,11 @@ main{
     background: #faefed;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 445px){
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
 
     .serli-tool img{
         width: 50px;
@@ -407,21 +476,32 @@ main{
 }
 
 .box-content{
-    width: 100%;
-   height: 400px;
+    max-width: 100%;
+
    background: #efcec9;
    padding: 20px 40px;
    display: flex;
    gap: 10px;
    /* flex-direction: row; */
    gap: 20px;
+   @media (max-width: 445px){
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    max-width: 100%;
+    padding:10px;
+   }
    .pic-box{
     width: 700px;
-    height: 380px;
+    /* height: 380px; */
     background-image: url(../Images/banner1\ \(1\).png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 80px;
+    @media (max-width: 445px){
+        padding: 5px;
+        max-width: 100%;
+    }
     
     h1{
         color: rgb(206, 127, 134);
@@ -439,6 +519,9 @@ main{
         font-style: normal;
         font-size: 32px;
         width: 250px;
+        @media (max-width: 445px){
+            font-size: 30px;
+        }
     }
 
     p{
@@ -450,11 +533,15 @@ main{
 
    .pic-box1{
     width: 500px;
-    height: 320px;
+    /* height: 320px; */
     background-image: url(../Images/6188.png);
     background-repeat: no-repeat;
     background-size: 90%;
     padding: 100px 0;
+    @media (max-width: 445px){
+       max-width: 100%;
+       padding: 10px;
+    }
 
     p{
         color: rgb(206, 127, 134);
@@ -501,7 +588,6 @@ main{
    .pann{
     text-align: center;
     padding: 0px 470px;
-    margin-block: 0.5rem;
    }
 
    p{
@@ -542,6 +628,11 @@ main{
     display: flex;
     justify-content: space-between;
     padding-inline: 4rem;
+    @media (max-width: 445px){
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
     h1{
         color:  rgb(206, 127, 134);
         font-family: Kugile, Kugile Fallback;
@@ -581,3 +672,73 @@ main{
     color: white;
     
 }
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+
+@media (max-width:767px) {
+
+    .hamburger{
+        display: block;
+
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navlinks{
+            position: fixed;
+            width: 100%;
+            right: 100%;
+            top: 37px;
+            gap: 0;
+            background-color:black;
+            transition: 0.3s;
+            margin: 50px 0;
+            flex-direction: column;
+            color: #faefed;
+            padding-left: 1rem;
+            z-index: 1;
+        
+        }
+
+        .navlinks.active{
+            left: 0;
+        }
+
+        .navlinks{ 
+        .li-links{
+            margin: 16px 0;
+            flex-direction: column;
+            align-items: start;
+            a{
+                color: white;
+            }
+        }
+    }   
+           
+}
+
+

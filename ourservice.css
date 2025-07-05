@@ -8,64 +8,68 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-main{
-.navbar{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* margin-top: 15px; */
-    padding: 15px 15px;
-    padding-inline: 2rem;
-    background: #fff8f0;
-    position: sticky;
-    top: 2;
-    z-index: 100;
-    .nav ul{
+
+    .navbar{
+        align-items: center;
         display: flex;
         flex-direction: row;
-        gap: 20px;
-
-        li {
-            list-style: none;
-
-            a{
-                text-decoration: none;
-                /* color: #f8ddc0; */
-                font-size: 18px;
-                font-weight: 500;
-                font-weight: 400;
-                color: black;
-            }
-        }
-    }
-
-    .divlogo{
-        width: 100px;
-        height: 50px;
-        background-image: url(./Assets/Images/logo.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .booknow-tag{
-        border-radius: 15px;
-        background-color: #b48656;
-        a{
-        text-decoration: none;
-        font-size: 16px;
-        font-weight: 500;
-        width: 150px;
-        background: #b48656;
-        border-radius: 15px;
-        padding-inline: 8px;
-        color:white;
-        padding: 10px;
+        justify-content: space-around;
+        padding: 10px 15px;
+        padding-inline: 2rem;
+        @media (max-width:445px){
+            padding: 7px;
         }
     
-}
-}
+   }
+
+        .navlinks {
+        .li-links{
+           display: flex;
+           gap: 20px;
+           list-style: none;
+           a{
+            text-decoration: none;
+            color:black;
+            font-size: 18px;
+            font-family: 400;
+           }
+        }
+    }
+
+        .divlogo{
+            width: 100px;
+            height: 100px;
+            background-image: url(./Assets/Images/logo.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 50px;
+            @media (max-width: 445px){
+                width: 70px;
+                height: 70px;
+                border-radius: 40px;
+            }
+        }
+
+        .booknow-tag{
+            border-radius: 15px;
+            background-color: #b48656;
+            a{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            width: 170px;
+            background: #b48656;
+            border-radius: 15px;
+            color: white;
+            padding: 18px;
+            }
+        
+    }
+    
+    
+
+
 h1{
     color:black;
     font-size: 38px;
@@ -74,8 +78,11 @@ h1{
     font-family: "Old Standard TT", serif;
     font-weight: 400;
     font-style: normal;
+    @media (max-width: 445px){
+        padding: 20px;
+    }
 }
-}
+
 
 .heading{
     font-size: 32px;
@@ -92,13 +99,45 @@ h1{
     height: 560px;
     display: flex;
     flex-direction: row;
+    @media (max-width: 445px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.classic-content2{
+    max-width: 100%;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 445px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.classic-content3{
+    max-width: 100%;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 445px){
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-top: 65rem;
+    }
 }
 
 .classic-box1{
-    width: 50%;
-    height: 550px;
+    max-width: 50%;
+    /* height: 550px; */
     padding: 50px 35px;
     /* border: 1px solid rgb(253, 249, 249); */
+    @media (max-width: 445px){
+        max-width: 100%;
+        padding: 5px;
+    }
 
     p{
         font-size: 20px;
@@ -113,27 +152,55 @@ h1{
 }
 
 .classic-box2{
-    width: 50%;
-    height: 550px;
-    img{
-        width: 100%;
-        height: 563px;
+    max-width: 50%;
+    /* height: 550px; */
+    @media (max-width: 445px){
+        max-width: 100%;
+        height: 300px;
     }
-}
+    img{
+        max-width: 100%;
+        height: 563px;
+        @media (max-width: 445px){
+            max-width: 100%;
+            height: 300px;
+        }
+        
+        }
+    }
+
+
 
 .classic-box3{
-    width: 50%;
+    margin-top: 23rem;
+    max-width: 50%;
     height: 550px;
+    @media (max-width: 445px){
+        max-width: 100%;
+        order: 1;
+        margin-top: 23rem;
+    }
+    
     img{
         width: 100%;
         height: 560px;
+        @media (max-width: 445px){
+            max-width: 100%;
+            height: 300px;
+            order: 2;
+        }
     }
 }
 
 .classic-box4{
-    width: 50%;
+    max-width: 50%;
     height: 560px;
     padding: 50px 35px;
+    @media (max-width: 445px){
+        max-width: 100%;
+        padding: 5px;
+        margin-top: 23rem;
+    }
     /* border: 1px solid rgb(253, 249, 249); */
 
     p{
@@ -220,3 +287,71 @@ h1{
     color: white;
     
 }
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width:767px) {
+
+    .hamburger{
+        display: block;
+
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navlinks{
+            position: fixed;
+            width: 100%;
+            right: 100%;
+            top: 37px;
+            gap: 0;
+            background-color:black;
+            transition: 0.3s;
+            margin: 50px 0;
+            flex-direction: column;
+            color: #faefed;
+            padding-left: 1rem;
+            z-index: 1;
+        
+        }
+
+        .navlinks.active{
+            left: 0;
+        }
+
+        .navlinks{ 
+        .li-links{
+            margin: 16px 0;
+            flex-direction: column;
+            align-items: start;
+            a{
+                color: white;
+            }
+        }
+    }   
+           
+}
+
