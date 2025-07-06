@@ -1,0 +1,535 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: #fff8f0;
+}
+
+
+
+
+    .navbar{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 15px;
+        padding-inline: 2rem;
+        @media (max-width:445px){
+            padding: 7px;
+        }
+    
+   }
+
+        .navlinks {
+        .li-links{
+           display: flex;
+           gap: 20px;
+           list-style: none;
+           a{
+            text-decoration: none;
+            color:black;
+            font-size: 18px;
+            font-family: 400;
+           }
+        }
+    }
+
+        .divlogo{
+            img{
+                width: 70px;
+                height: 70px;
+                border-radius: 40px;
+              }
+        }
+
+        .booknow-tag{
+            border-radius: 15px;
+            background-color: #b48656;
+            a{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            width: 170px;
+            background: #b48656;
+            border-radius: 15px;
+            color: white;
+            padding: 18px;
+            }
+        
+    }
+
+    .product{
+        max-width:1120px ;
+        height: 600px;
+        margin-inline: auto;
+        margin-top: 2rem;
+    }
+
+    .product-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-bottom: 50px;
+        @media (max-width: 445px){
+            display: flex;
+            flex-direction: column;
+            padding-inline: 1rem;
+            gap: 15px;
+        }
+        .box{
+            max-width: 300px;
+            height: 420px;
+            border: 1px solid #dcdcdc;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
+            .image{
+                max-width: 1120px;
+                height: 250px;
+                background-image: url(../Images/1D4F758B-3BDA-4825-9EA7-6B987BF452BF.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .text{
+                align-items: center;
+                text-align: center;
+                h2{
+                    /* text-align: center; */
+                    font-family: 'Cormorant Infant', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #000000;
+                    color: var(--black);
+                    font-family: 'Cormorant Infant', serif;
+                    font-family: var(--font-headers), serif;
+                    font-weight: 400;
+                    letter-spacing: var(--font-headers-letterspacing);
+                    /* text-align: center; */
+                }
+
+            }
+        }
+        .box2{
+            max-width: 300px;
+            height: 420px;
+            border: 1px solid #dcdcdc;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
+            .image{
+                max-width: 1120px;
+                height: 250px;
+                /* border: 1px solid red ; */
+                background-image: url(../Images/hannd-c.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .text{
+                align-items: center;
+                text-align: center;
+                h2{
+                    /* text-align: center; */
+                    font-family: 'Cormorant Infant', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #000000;
+                    color: var(--black);
+                    font-family: 'Cormorant Infant', serif;
+                    font-family: var(--font-headers), serif;
+                    font-weight: 400;
+                    letter-spacing: var(--font-headers-letterspacing);
+                    /* text-align: center; */
+                }
+
+            }
+        }
+        .box3{
+            max-width: 300px;
+            height: 420px;
+            border: 1px solid #dcdcdc;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
+            .image{
+                max-width: 1120px;
+                height: 250px;
+                /* border: 1px solid red ; */
+                background-image: url(../Images/nail_boutique-15.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .text{
+                align-items: center;
+                text-align: center;
+    
+                h2{
+                    /* text-align: center; */
+                    font-family: 'Cormorant Infant', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #000000;
+                    color: var(--black);
+                    font-family: 'Cormorant Infant', serif;
+                    font-family: var(--font-headers), serif;
+                    font-weight: 400;
+                    letter-spacing: var(--font-headers-letterspacing);
+                    /* text-align: center; */
+                }
+
+            }
+        }
+        .box4{
+            max-width: 300px;
+            height: 420px;
+            border: 1px solid #dcdcdc;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
+            .image{
+                max-width: 1120px;
+                height: 250px;
+                /* border: 1px solid red ; */
+                background-image: url(../Images/nail_boutique-18.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .text{
+                align-items: center;
+                text-align: center;
+    
+                h2{
+                    /* text-align: center; */
+                    font-family: 'Cormorant Infant', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #000000;
+                    color: var(--black);
+                    font-family: 'Cormorant Infant', serif;
+                    font-family: var(--font-headers), serif;
+                    font-weight: 400;
+                    letter-spacing: var(--font-headers-letterspacing);
+                    /* text-align: center; */
+                }
+
+            }
+        }
+        .box5{
+            max-width: 300px;
+            height: 420px;
+            border: 1px solid #dcdcdc;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
+            .image{
+                max-width: 1120px;
+                height: 250px;
+                /* border: 1px solid red ; */
+                background-image: url(../Images/nail_boutique-1.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .text{
+                align-items: center;
+                text-align: center;
+    
+                h2{
+                    /* text-align: center; */
+                    font-family: 'Cormorant Infant', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #000000;
+                    color: var(--black);
+                    font-family: 'Cormorant Infant', serif;
+                    font-family: var(--font-headers), serif;
+                    font-weight: 400;
+                    letter-spacing: var(--font-headers-letterspacing);
+                    /* text-align: center; */
+                }
+
+            }
+        }
+        .box6{
+            max-width: 300px;
+            height: 420px;
+            border: 1px solid #dcdcdc;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
+            .image{
+                max-width: 1120px;
+                height: 250px;
+                /* border: 1px solid red ; */
+                background-image: url(../Images/nns.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .text{
+                align-items: center;
+                text-align: center;
+    
+                h2{
+                    /* text-align: center; */
+                    font-family: 'Cormorant Infant', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #000000;
+                    color: var(--black);
+                    font-family: 'Cormorant Infant', serif;
+                    font-family: var(--font-headers), serif;
+                    font-weight: 400;
+                    letter-spacing: var(--font-headers-letterspacing);
+                    /* text-align: center; */
+                }
+
+            }
+        }
+        .box7{
+            max-width: 300px;
+            height: 420px;
+            border: 1px solid #dcdcdc;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
+            .image{
+                max-width: 1120px;
+                height: 250px;
+                /* border: 1px solid red ; */
+                background-image: url(../Images/shea.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .text{
+                align-items: center;
+                text-align: center;
+    
+                h2{
+                    /* text-align: center; */
+                    font-family: 'Cormorant Infant', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #000000;
+                    color: var(--black);
+                    font-family: 'Cormorant Infant', serif;
+                    font-family: var(--font-headers), serif;
+                    font-weight: 400;
+                    letter-spacing: var(--font-headers-letterspacing);
+                    /* text-align: center; */
+                }
+
+            }
+        }
+        .box8{
+            max-width: 300px;
+            height: 420px;
+            border: 1px solid #dcdcdc;
+            @media (max-width: 445px){
+                max-width: 100%;
+            }
+            .image{
+                max-width: 1120px;
+                height: 250px;
+                /* border: 1px solid red ; */
+                background-image: url(../Images/mb.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .text{
+                align-items: center;
+                text-align: center;
+    
+                h2{
+                    /* text-align: center; */
+                    font-family: 'Cormorant Infant', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #000000;
+                    color: var(--black);
+                    font-family: 'Cormorant Infant', serif;
+                    font-family: var(--font-headers), serif;
+                    font-weight: 400;
+                    letter-spacing: var(--font-headers-letterspacing);
+                    /* text-align: center; */
+                }
+
+            }
+        }
+    }
+
+    .foother{
+        padding: 50px;
+        background: #fce6e3;
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 4rem;
+        margin-top: 15rem;
+        @media (max-width: 445px){
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            margin-top: 180rem;
+        }
+        h1{
+            color:  rgb(206, 127, 134);
+            font-family: Kugile, Kugile Fallback;
+            font-weight: 400;
+            font-style: normal;
+        }
+    
+        p{
+            font-family: Kugile, Kugile Fallback;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            margin-block: 0.4rem;
+        }
+    
+        .footer1{
+    
+            .flat-icon{
+                display: flex;
+                gap: 40px;
+            }
+            .mails{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                flex-direction: row;
+                margin-block: 0.7rem;
+            }
+        }
+    }
+    
+    .foother2{
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        background: black;
+        color: white;
+        
+    }
+
+    .bar{
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: black;
+    }
+    
+    .hamburger{
+        display: none;
+        cursor: pointer;
+    }
+    
+    
+    @media (max-width:767px) {
+    
+        .hamburger{
+            display: block;
+    
+        }
+    
+        .hamburger.active .bar:nth-child(2){
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3){
+            transform: translateY(-8px) rotate(-45deg);
+        }
+    
+        .navlinks{
+                position: fixed;
+                width: 100%;
+                right: 100%;
+                top: 37px;
+                gap: 0;
+                background-color:black;
+                transition: 0.3s;
+                margin: 50px 0;
+                flex-direction: column;
+                color: #faefed;
+                padding-left: 1rem;
+                z-index: 1;
+            
+            }
+    
+            .navlinks.active{
+                left: 0;
+            }
+    
+            .navlinks{ 
+            .li-links{
+                margin: 16px 0;
+                flex-direction: column;
+                align-items: start;
+                a{
+                    color: white;
+                }
+            }
+        }   
+               
+    }

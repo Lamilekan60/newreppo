@@ -37,17 +37,21 @@ body{
 }
 
     .divlogo{
-        width: 100px;
-        height: 100px;
-        background-image: url(../Images/logo.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border-radius: 50px;
+            img{
+                width: 70px;
+                height: 70px;
+                border-radius: 40px;
+              }
+       
         @media (max-width: 445px){
             width: 70px;
             height: 70px;
             border-radius: 40px;
+
+            img{
+                width: 100px;
+                height: 80px;
+              }
         }
     }
 
