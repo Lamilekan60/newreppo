@@ -71,9 +71,10 @@ body{
 
     .about-pic{
         width: 1300px;
-        background: linear-gradient( rgba(0, 0, 0,.7),rgba(0, 0, 0,.7)),url(../Images/women-hand.png);
+        background: linear-gradient( rgba(0, 0, 0,.7),rgba(0, 0, 0,.7)),url(../Images/WhatsApp-Image-2022-11-03-at-4.10.46-PM-11.webp);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         /* height: 400px; */
         text-align: center;
         padding: 120px 0;
