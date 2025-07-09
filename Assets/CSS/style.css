@@ -22,6 +22,7 @@ body{
         @media (max-width:445px){
             padding: 7px;
         }
+       
     
    }
 
@@ -411,7 +412,7 @@ body{
                 font-weight: 500px;
             }
 
-            p{
+            small{
                 color: #911439;
             }
         }
@@ -715,8 +716,8 @@ body{
     .navlinks{
             position: fixed;
             width: 100%;
-            right: 100%;
-            top: 37px;
+            left: -100%;
+            top: 35px;
             gap: 0;
             background-color:black;
             transition: 0.3s;
