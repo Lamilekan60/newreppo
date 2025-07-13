@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Poppins", sans-serif;
     background: #fff8f0;
     max-width: 100%;
@@ -13,222 +13,236 @@ body{
 
 
 
-    .navbar{
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 10px 15px;
-        padding-inline: 2rem;
-        @media (max-width:445px){
-            padding: 7px;
-        }
-       
-    
-   }
+.navbar {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 15px;
+    padding-inline: 2rem;
 
-        .navlinks {
-        .li-links{
-           display: flex;
-           gap: 20px;
-           list-style: none;
-           a{
+    @media (max-width:445px) {
+        padding: 7px;
+    }
+
+
+}
+
+.navlinks {
+    .li-links {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+
+        a {
             text-decoration: none;
-            color:black;
+            color: black;
             font-size: 18px;
             font-family: 400;
-           }
         }
     }
+}
 
-        .divlogo{
-            img{
-                width: 70px;
-                height: 70px;
-                border-radius: 40px;
-              }
-            @media (max-width: 445px){
-                width: 70px;
-                height: 70px;
-                border-radius: 40px;
-            }
+.divlogo {
+    img {
+        width: 70px;
+        height: 70px;
+        border-radius: 40px;
+    }
+
+    @media (max-width: 445px) {
+        width: 70px;
+        height: 70px;
+        border-radius: 40px;
+    }
+}
+
+.booknow-tag {
+    border-radius: 15px;
+    background-color: #b48656;
+
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        width: 170px;
+        background: #b48656;
+        border-radius: 15px;
+        color: white;
+        padding: 18px;
+    }
+
+}
+
+.manicuree{
+    width: 100%;
+    padding-inline: 0.5rem;
+}
+
+
+
+
+.hero-pic {
+    max-width: 1400px;
+    /* height: 500px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../Images/woman-getting-manicure-high-angle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    align-items: center;
+    /* background-color: rgb(26, 25, 25); */
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px;
+
+    @media (max-width: 445px) {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    
+    h1 {
+        font-size: 150px;
+        color: #fafaed;
+        font-weight: 300px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+
+        @media (max-width: 445px) {
+            font-size: 59px;
+        }
+        
+}
+
+    p {
+        color: #faefef;
+        font-family: "Yrsa", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        max-width:750px;
+        padding-block: 1rem;
+        text-align: center;
+
+        @media (max-width: 445px) {
+            max-width: 100%;
         }
 
-        .booknow-tag{
-            border-radius: 15px;
-            background-color: #b48656;
-            a{
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 500;
-            width: 170px;
-            background: #b48656;
-            border-radius: 15px;
-            color: white;
-            padding: 18px;
-            }
         
     }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        background: #b48656;
+        color: white;
+        padding: 18px;
+    }
+}
+
+.sub-content {
+    display: flex;
+    padding: 40px;
+    @media (max-width: 445px) {
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+    }
+
+    
+}
+
+
+.sub-cont {
+    max-width:600px;
+
+    @media (max-width: 445px) {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+
+
+    h3 {
+        width: 500px;
+        font-size: 22px;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-style: normal;
+
+        @media (max-width: 445px) {
+            max-width: 100%;
+            
+            
+        }
+
+    }
+
+    p {
+        font-size: 16px;
+        font-family: "Edu VIC WA NT Hand", cursive;
+        font-weight: 400;
+        font-style: normal;
+        margin-block: 0.5rem;
+    }
+}
+
+.sub-cont2 {
+    max-width:650px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    @media (max-width: 445px) {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-inline: 0.5rem;
+    }
+
     
 
-   
-
-    .hero-pic{
-        max-width:1400px;
-        /* height: 500px; */
-        background: linear-gradient( rgba(0, 0, 0,0.9),rgba(0, 0, 0,0.9)),url(../Images/woman-getting-manicure-high-angle.jpg);
+    .box-cont2 {
+        width: 370px;
+        height: 250px;
+        background-image: url(../Images/WhatsApp-Image-2022-11-03-at-4.11.30-PM-1.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        opacity: 0.7;
-       align-items: center;
-       /* background-color: rgb(26, 25, 25); */
-        display: flex;
-        flex-direction: column;
 
-        padding: 100px;
-        @media (max-width: 445px){
-            max-width: 100%;
-            padding: 20px;
+        @media (max-width: 445px) {
+            width: 100%;
+            height: 200px;
         }
 
-        h1{
-            font-size: 150px;
-            color: #fafaed;
-            font-weight: 300px;
-            font-family: "Lato", sans-serif;
-            font-weight: 400;
-            font-style: italic;
-
-            @media (max-width: 445px){
-                font-size: 59px;
-            }
-        }
-
-        p{
-            color: #faefef;
-            font-size: 20px;
-            font-weight: 300px;
-            width: 750px;
-            padding-block: 1rem;
-            text-align: center;
-            @media (max-width: 445px){
-                max-width: 100%;
-            }
-        }
-
-        a{
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: 500;
-            background: #b48656;
-            color: white;
-            padding: 18px;
-        }
+       
     }
+}
 
-    .sub-content{
-        max-width: 100%;
-        /* border: 2px solid red ; */
-        display: flex;
-        flex-direction: row;
-        justify-content:space-evenly;
-
-        @media (max-width: 445px){
-            display: flex;
-            flex-direction: column;
-        }
-    }
+hr {
+    margin-top: 0.5rem;
+}
 
 
-    .sub-cont{
-        width: 600px;
-        padding: 85px;
-
-        @media (max-width: 445px){
-            max-width: 100%;
-            padding: 10px;
-        }
-
-        h3{
-            width: 500px;
-            font-size: 22px;
-            font-family: "Old Standard TT", serif;
-            font-weight: 400;
-            font-style: normal;
-
-            @media (max-width: 445px){
-                max-width:100%;
-            }
-        }
-
-        p{
-            font-size: 16px;
-            font-family: "Edu VIC WA NT Hand", cursive;
-            font-weight: 400;
-            font-style: normal;
-            margin-block: 0.5rem;
-        }
-    }
-
-    .sub-cont2{
-        width: 650px;
-        display: flex;
-        align-items: center;
-        gap: 15px;
-
-        @media (max-width: 445px){
-            max-width: 100%;
-            display: flex;
-            flex-direction: column;
-            padding-inline: 0.5rem;
-        }
-        
-        
-
-        .box-cont{ 
-            width: 300px;
-            height: 395px;
-            background-image: url(../Images/DSC00963.webp);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            @media (max-width: 445px){
-                width: 100%;
-                height: 200px;
-            }
-        }
-
-        .box-cont2{
-            width: 400px;
-            height: 250px;
-            background-image: url(../Images/WhatsApp-Image-2022-11-03-at-4.11.30-PM-1.webp);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            @media (max-width: 445px){
-                width: 100%;
-                height: 200px;
-            }
-        }
-    }
-    hr{
-      margin-top: 0.5rem;
-    }
-
-
-.service-content{
+.service-content {
     padding: 50px 0px;
     background: #faefed;
-    h1{
+
+    h1 {
         color: rgb(206, 127, 134);
         font-family: "Edu NSW ACT Cursive", cursive;
         font-size: 16px;
         margin-block: 0.5rem;
         text-align: center;
+
+       
     }
 
-    h3{
+    h3 {
         font-family: "Cormorant", serif;
         font-optical-sizing: auto;
         font-weight: 600;
@@ -236,132 +250,145 @@ body{
         font-size: 32px;
         text-align: center;
         margin-block: 0.6rem;
+
+        @media (max-width: 445px) {
+            font-size: 28px;
+        }
     }
 
-    p{
+    .pg {
         font-size: 18px;
         font-weight: 400;
         text-align: center;
     }
 
-    .service-container{
-        display: flex;
+    .service-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-block: 0.5rem;
-        gap: 50px;
-        width:1100px;
+        gap: 30px;
+        max-width: 1100px;
         margin-inline: auto;
-        @media (max-width: 445px){
+
+        @media (max-width: 445px) {
             display: flex;
             flex-direction: column;
             max-width: 100%;
             align-items: center;
         }
-       .image-box1{
-        width: 360px;
-        height: 410px;
-        /* border: 2px solid red; */
-        background-image: url(../Images/IMG_9760spa.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
-        position: relative;
-        padding-inline: 0.37rem; 
 
-        @media (max-width: 445px){
-            max-width: 100%;
-            height: 300px;
+        .image-box1 {
+            /* width: 360px; */
+            height: 410px;
+            background-image: url(../Images/IMG_9760spa.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            position: relative;
+            padding-inline: 0.37rem;
+
+            @media (max-width: 445px) {
+                max-width: 100%;
+                height: 300px;
+            }
+
+            .paa {
+                font-size: 18px;
+                font-weight: 500;
+                width: 350px;
+                color: black;
+                background-color: white;
+                position: absolute;
+                bottom: 8px;
+                display: none;
+            }
+
+            .paa:hover {
+                display: block;
+                cursor: pointer;
+            }
         }
 
-        .paa{
-            font-size: 18px;
-            font-weight: 500;
-            width: 350px;
-            color: black;
-            background-color: white;
-            position: absolute;
-            bottom: 8px;
-            display: none;
-        }
-
-        .paa:hover{
-            display: block;
-            cursor: pointer;
-        }
-       }
-
-       .image-box2{
-        width: 360px;
-        height: 410px;
-        /* border: 2px solid red; */
-        background-image: url(../Images/WhatsApp-Image-2022-11-03-at-6.28.57-PM.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
-
-        @media (max-width: 445px){
-            max-width: 100%;
-            height: 300px;
-        }
-       }
-
-       .image-box3{
-        width: 360px;
-        height: 410px;
-        background-image: url(../Images/WhatsApp-Image-2022-11-03-at-4.11.30-PM.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
-
-        @media (max-width: 445px){
-            max-width: 100%;
-            height: 300px;
-        }
-
-        .manicuree p {
-            font-size: 23px;
+        .mani {
+            font-size: 30px;
             font-weight: 400;
             font-family: sans-serif;
-           }
-        
-       }
+            text-align: center;
+            margin-top: 0.6rem;
+        }
+
+        .image-box2 {
+            /* width: 360px; */
+            height: 410px;
+            background-image: url(../Images/WhatsApp-Image-2022-11-03-at-6.28.57-PM.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+
+            @media (max-width: 445px) {
+                max-width: 100%;
+                height: 300px;
+            }
+        }
+
+        .image-box3 {
+            /* width: 360px; */
+            height: 410px;
+            background-image: url(../Images/WhatsApp-Image-2022-11-03-at-4.11.30-PM.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+
+            @media (max-width: 445px) {
+                max-width: 100%;
+                height: 300px;
+            }
+
+
+        }
 
     }
 }
-.about{
-   width: 100%;
-   /* height: 550px; */
-   display: flex;
-   @media (max-width: 445px){
-    max-width: 100%;
+
+.about {
+    width: 100%;
+    /* height: 550px; */
     display: flex;
-    flex-direction: column;
-}
-    .image{
+
+    @media (max-width: 445px) {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
         width: 50%;
         height: 596px;
         background-image: url(../Images/oranails-gallery-1.jpg);
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
 
-        @media (max-width: 445px){
+        @media (max-width: 445px) {
             width: 100%;
             height: 350px;
         }
     }
 
-    .Text{
+    .Text {
         max-width: 50%;
         /* height: 596px; */
         background: #efcec9;
         padding: 80px 80px;
-        @media (max-width: 445px){
+
+        @media (max-width: 445px) {
             max-width: 100%;
             padding: 20px;
         }
-        h1{
+
+        h1 {
             color: rgb(206, 127, 134);
             font-family: "Satisfy", cursive;
             font-weight: 400;
@@ -369,28 +396,28 @@ body{
             font-size: 24px;
         }
 
-        h2{
-        font-family: "Cormorant", serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 35px;
-        margin-block: 0.9rem;
+        h2 {
+            font-family: "Cormorant", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 35px;
+            margin-block: 0.9rem;
         }
 
-        p{
+        p {
             font-size: 18px;
             margin-block: 0.6rem;
             font-weight: 520;
         }
 
-        .paragrap{
+        .paragrap {
             margin-block: 1rem;
             color: rgb(102, 96, 112);
             line-height: 26px;
         }
 
-        .call-icon{
+        .call-icon {
             width: 60px;
             height: 60px;
             border-radius: 40px;
@@ -399,26 +426,26 @@ body{
             padding: 13px 13px;
         }
 
-        .icon{
+        .icon {
             display: flex;
             align-items: center;
             gap: 15px;
             margin-bottom: 3rem;
         }
 
-        .call{
-            .ptag{
+        .call {
+            .ptag {
                 color: rgb(206, 127, 134);
                 font-size: 18px;
                 font-weight: 500px;
             }
 
-            small{
+            small {
                 color: #911439;
             }
         }
 
-        a{
+        a {
             text-decoration: none;
             padding: 20px;
             background: #911439;
@@ -427,47 +454,50 @@ body{
             font-weight: 600;
         }
 
-        a:hover{
+        a:hover {
             background: #2b2b45;
         }
     }
 }
 
-.pedi-tools{
+.pedi-tools {
     padding: 50px 70px;
     background: #faefed;
-    display: flex;
-    justify-content: space-between;
-    @media (max-width: 445px){
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+    @media (max-width: 445px) {
         display: flex;
         flex-direction: column;
         padding: 20px;
     }
 
-    .serli-tool img{
+    .serli-tool img {
         width: 50px;
     }
 
-    .serli-tool{
+    .serli-tool {
         display: flex;
         align-items: center;
         gap: 10px;
     }
 
-    .st-text{
-        .pag{
-        font-family: "Cormorant", serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 20px;
-        margin-top: 2.3rem
+    .st-text {
+        .pag {
+            font-family: "Cormorant", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 20px;
+            margin-top: 2.3rem
         }
-        p{
+
+        p {
             margin-bottom: 0.4rem;
             width: 187px;
         }
-        a{
+
+        a {
             color: #911439;
             font-size: 18px;
             font-weight: 530;
@@ -475,47 +505,48 @@ body{
     }
 }
 
-.box-content{
+.box-content {
     max-width: 100%;
 
-   background: #efcec9;
-   padding: 20px 40px;
-   display: flex;
-   gap: 10px;
-   /* flex-direction: row; */
-   gap: 20px;
-   @media (max-width: 445px){
+    background: #efcec9;
+    padding: 20px 40px;
     display: flex;
-    flex-direction: column;
-    padding: 0;
-    max-width: 100%;
-    padding:10px;
-   }
-   .pic-box{
-    width: 700px;
-    /* height: 380px; */
-    background-image: url(../Images/WhatsApp-Image-2022-11-03-at-4.10.46-PM-2.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 80px;
-    @media (max-width: 445px){
-        padding: 5px;
+    gap: 10px;
+    /* flex-direction: row; */
+    gap: 20px;
+
+    @media (max-width: 445px) {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
         max-width: 100%;
+        padding: 10px;
     }
-    
-    h1{
-        margin-block: 0.4rem;
-        a{
+
+    .pic-box {
+        width: 700px;
+        /* height: 380px; */
+        background-image: url(../Images/WhatsApp-Image-2022-11-03-at-4.10.46-PM-2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 80px;
+
+        @media (max-width: 445px) {
+            padding: 5px;
+            max-width: 100%;
+        }
+
+        a {
             text-decoration: none;
             color: white;
-        font-size: 40px;
-        font-family: "Parisienne", cursive;
-        font-weight: 500;
-        font-style: normal;
+            font-size: 40px;
+            font-family: "Parisienne", cursive;
+            font-weight: 500;
+            font-style: normal;
         }
     }
 
-    h2{
+    h2 {
         font-family: "Bodoni Moda", serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -523,33 +554,34 @@ body{
         font-size: 32px;
         width: 250px;
         color: white;
-        @media (max-width: 445px){
+
+        @media (max-width: 445px) {
             font-size: 30px;
         }
     }
 
-    p{
+    p {
         font-size: 14px;
         font-weight: 550;
         margin-block: 0.6rem;
         color: white;
     }
-   }
+}
 
-   .pic-box1{
+.pic-box1 {
     width: 500px;
     /* height: 320px; */
     background-image: url(../Images/6188.png);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: cover;
     padding: 100px 0;
 
-    @media (max-width: 445px){
-       max-width: 100%;
-       padding: 10px;
+    @media (max-width: 445px) {
+        max-width: 100%;
+        padding: 10px;
     }
 
-    p{
+    p {
         color: rgb(206, 127, 134);
         font-family: "Bodoni Moda", serif;
         font-optical-sizing: auto;
@@ -559,94 +591,97 @@ body{
         text-align: center;
     }
 
-    span{ 
+    span {
         color: black;
         font-size: 20px;
         font-size: 42px;
     }
 
-    .pan{
+    .pan {
         font-size: 18px;
         font-weight: 550;
         color: rgb(102, 96, 112);
         margin-block: 0.6rem;
     }
 }
-}
 
-.booknow-btn{
-/* padding: 100px; */
-   background-image: url(../Images/woman-getting-manicure-high-angle.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   opacity: 0.7;
-   align-items: center;
-
-   h1{
-    font-family: Kugile, Kugile Fallback;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 48px;
-    text-align: center;
-   }
-
-   .pann{
-    text-align: center;
-    padding: 0px 470px;
-   }
-
-   p{
-    color: #fff;
-    width: 420px;
-    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
-   }
-
-   .chat{
-    width: 240px;
-    display: flex;
+.booknow-btn {
+    /* padding: 100px; */
+    background-image: url(../Images/woman-getting-manicure-high-angle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
-    border-radius: 3.40282e+38px;
-    background: white;
-    padding-block: calc(var(--spacing) * 4);
-    /* padding-inline: calc(var(--spacing) * 7); */
 
-   }
+    h1 {
+        font-family: Kugile, Kugile Fallback;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 48px;
+        text-align: center;
+    }
 
-   .chat img{
-    width: 50px;
-    height: 50px;
-   }
+    .pann {
+        text-align: center;
+        /* padding: 0px 470px; */
+        display: flex;
+        justify-content: center;
+    }
 
-   .chat p{
-    width: fit-content;
-    font-size: 18px;
-    font-weight: 500;
-    color: black;
-   }
+    p {
+        color: #fff;
+        width: 420px;
+        font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    }
+
+    .chat {
+        width: 240px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 3.40282e+38px;
+        background: white;
+        padding-block: calc(var(--spacing) * 4);
+        /* padding-inline: calc(var(--spacing) * 7); */
+
+    }
+
+    .chat img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .chat p {
+        width: fit-content;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+    }
 }
 
-.foother{
+.foother {
     padding: 50px;
     background: #fce6e3;
     display: flex;
     justify-content: space-between;
     padding-inline: 4rem;
-    @media (max-width: 445px){
+
+    @media (max-width: 445px) {
         display: flex;
         flex-direction: column;
         padding: 15px;
     }
-    h1{
-        color:  rgb(206, 127, 134);
+
+    h1 {
+        color: rgb(206, 127, 134);
         font-family: Kugile, Kugile Fallback;
         font-weight: 400;
         font-style: normal;
     }
 
-    p{
+    p {
         font-family: Kugile, Kugile Fallback;
         font-weight: 400;
         font-style: normal;
@@ -654,13 +689,14 @@ body{
         margin-block: 0.4rem;
     }
 
-    .footer1{
+    .footer1 {
 
-        .flat-icon{
+        .flat-icon {
             display: flex;
             gap: 40px;
         }
-        .mails{
+
+        .mails {
             display: flex;
             gap: 10px;
             align-items: center;
@@ -670,16 +706,16 @@ body{
     }
 }
 
-.foother2{
+.foother2 {
     width: 100%;
     height: 30px;
     text-align: center;
     background: black;
     color: white;
-    
+
 }
 
-.bar{
+.bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -689,7 +725,7 @@ body{
     background-color: black;
 }
 
-.hamburger{
+.hamburger {
     display: none;
     cursor: pointer;
 }
@@ -697,54 +733,53 @@ body{
 
 @media (max-width:767px) {
 
-    .hamburger{
+    .hamburger {
         display: block;
 
     }
 
-    .hamburger.active .bar:nth-child(2){
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(3){
+    .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .navlinks{
-            position: fixed;
-            width: 100%;
-            left: -100%;
-            top: 35px;
-            gap: 0;
-            background-color:black;
-            transition: 0.3s;
-            margin: 50px 0;
-            flex-direction: column;
-            color: #faefed;
-            padding-left: 1rem;
-            z-index: 1;
-        
-        }
+    .navlinks {
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        top: 35px;
+        gap: 0;
+        background-color: black;
+        transition: 0.3s;
+        margin: 50px 0;
+        flex-direction: column;
+        color: #faefed;
+        padding-left: 1rem;
+        z-index: 1;
 
-        .navlinks.active{
-            left: 0;
-        }
+    }
 
-        .navlinks{ 
-        .li-links{
+    .navlinks.active {
+        left: 0;
+    }
+
+    .navlinks {
+        .li-links {
             margin: 16px 0;
             flex-direction: column;
             align-items: start;
-            a{
+
+            a {
                 color: white;
             }
         }
-    }   
-           
+    }
+
 }
-
-
